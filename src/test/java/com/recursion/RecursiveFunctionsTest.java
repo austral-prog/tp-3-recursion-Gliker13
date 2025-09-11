@@ -9,7 +9,7 @@ import static com.recursion.RecursiveFunctions.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class RecursiveFunctionsTest {
-
+    //
     @Test
     public void testRecursiveIndexOf() {
         assertEquals(2, recursiveIndexOf(List.of("a", "b", "c"), "c"));
